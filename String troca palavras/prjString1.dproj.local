@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/08/31 14:00:42.000.871,=C:\Users\ualas\OneDrive\Documentos\Delphi\Unit1.pas</Transaction>
+    <Transaction>2022/08/31 17:39:23.000.591,=C:\Users\ualas\OneDrive\Documentos\Delphi\Unit1.pas</Transaction>
+    <Transaction>2022/08/31 17:48:12.000.311,C:\Users\ualas\OneDrive\Documentos\Delphi\Unit1.dfm=C:\Users\ualas\OneDrive\Documentos\Delphi\String troca palavras\untString1.dfm</Transaction>
+    <Transaction>2022/08/31 17:48:12.000.311,C:\Users\ualas\OneDrive\Documentos\Delphi\Unit1.pas=C:\Users\ualas\OneDrive\Documentos\Delphi\String troca palavras\untString1.pas</Transaction>
+    <Transaction>2022/08/31 17:48:54.000.111,C:\Users\ualas\OneDrive\Documentos\Delphi\Project1.dproj=C:\Users\ualas\OneDrive\Documentos\Delphi\String troca palavras\prjString1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,55 @@
+object frmBotaoFechar: TfrmBotaoFechar
+  Left = 0
+  Top = 0
+  Caption = 'frmBotaoFechar'
+  ClientHeight = 266
+  ClientWidth = 527
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object btnFechar: TButton
+    Left = 390
+    Top = 201
+    Width = 129
+    Height = 57
+    Caption = '&EXIT'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clRed
+    Font.Height = -40
+    Font.Name = 'Verdana'
+    Font.Style = [fsItalic]
+    ParentFont = False
+    TabOrder = 0
+    OnClick = btnFecharClick
+  end
+  object edtTexto: TEdit
+    Left = 8
+    Top = 16
+    Width = 289
+    Height = 97
+    Color = clBlack
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    Text = 'Digite aqui'
+  end
+  object btnLimparTexto: TButton
+    Left = 222
+    Top = 128
+    Width = 75
+    Height = 25
+    Caption = '&Limpar Texto'
+    TabOrder = 2
+    OnClick = btnLimparTextoClick
+  end
+end

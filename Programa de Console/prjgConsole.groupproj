@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{F95316E5-AFAF-42C7-BBC3-891C6E665FEC}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="prjConsole.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\Botão Fechar\prjBotaoFechar.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="prjConsole">
+        <MSBuild Projects="prjConsole.dproj"/>
+    </Target>
+    <Target Name="prjConsole:Clean">
+        <MSBuild Projects="prjConsole.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="prjConsole:Make">
+        <MSBuild Projects="prjConsole.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="prjBotaoFechar">
+        <MSBuild Projects="..\Botão Fechar\prjBotaoFechar.dproj"/>
+    </Target>
+    <Target Name="prjBotaoFechar:Clean">
+        <MSBuild Projects="..\Botão Fechar\prjBotaoFechar.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="prjBotaoFechar:Make">
+        <MSBuild Projects="..\Botão Fechar\prjBotaoFechar.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="prjConsole;prjBotaoFechar"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="prjConsole:Clean;prjBotaoFechar:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="prjConsole:Make;prjBotaoFechar:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

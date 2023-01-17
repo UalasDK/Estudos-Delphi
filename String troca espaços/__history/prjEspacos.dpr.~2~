@@ -1,0 +1,14 @@
+program prjEspacos;
+
+uses
+  Vcl.Forms,
+  untEspacos in 'untEspacos.pas' {trocaEspaco};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TtrocaEspaco, trocaEspaco);
+  Application.Run;
+end.

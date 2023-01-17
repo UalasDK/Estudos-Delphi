@@ -1,0 +1,24 @@
+object frmTrocaEspaco: TfrmTrocaEspaco
+  Left = 0
+  Top = 0
+  Caption = 'Troca espa'#231'os por exclama'#231#227'o!'
+  ClientHeight = 375
+  ClientWidth = 776
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object edtTexto: TEdit
+    Left = 168
+    Top = 176
+    Width = 393
+    Height = 45
+    TabOrder = 0
+    Text = 'Caixa de Texto'
+  end
+end

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/05/24 14:50:38.000.050,=C:\Users\ualas\OneDrive\Documentos\Delphi\Unit2.pas</Transaction>
+    <Transaction>2022/05/27 16:18:32.000.888,=C:\Users\ualas\OneDrive\Documentos\Delphi\Unit2.pas</Transaction>
+    <Transaction>2022/05/27 16:42:04.000.720,C:\Users\ualas\OneDrive\Documentos\Delphi\Unit2.pas=C:\Users\ualas\OneDrive\Documentos\Delphi\Ativar e Desativar Label\untAtvEDesatLabel.pas</Transaction>
+    <Transaction>2022/05/27 16:42:04.000.720,C:\Users\ualas\OneDrive\Documentos\Delphi\Unit2.dfm=C:\Users\ualas\OneDrive\Documentos\Delphi\Ativar e Desativar Label\untAtvEDesatLabel.dfm</Transaction>
+    <Transaction>2022/05/27 16:42:20.000.121,C:\Users\ualas\OneDrive\Documentos\Delphi\Project2.dproj=C:\Users\ualas\OneDrive\Documentos\Delphi\Ativar e Desativar Label\prjAtvEDesatLabel.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

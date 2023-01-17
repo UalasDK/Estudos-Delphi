@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/05/24 14:50:38.000.050,=C:\Users\ualas\OneDrive\Documentos\Delphi\Unit2.pas</Transaction>
+    <Transaction>2022/05/30 13:07:32.000.710,=C:\Users\ualas\OneDrive\Documentos\Delphi\Unit2.pas</Transaction>
+    <Transaction>2022/05/30 13:12:08.000.795,C:\Users\ualas\OneDrive\Documentos\Delphi\Unit2.pas=C:\Users\ualas\OneDrive\Documentos\Delphi\Número Max\untNumMax.pas</Transaction>
+    <Transaction>2022/05/30 13:12:08.000.795,C:\Users\ualas\OneDrive\Documentos\Delphi\Unit2.dfm=C:\Users\ualas\OneDrive\Documentos\Delphi\Número Max\untNumMax.dfm</Transaction>
+    <Transaction>2022/05/30 13:12:18.000.963,C:\Users\ualas\OneDrive\Documentos\Delphi\Project2.dproj=C:\Users\ualas\OneDrive\Documentos\Delphi\Número Max\prjNumMax.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

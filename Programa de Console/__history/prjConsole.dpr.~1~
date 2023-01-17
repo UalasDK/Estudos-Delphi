@@ -1,0 +1,15 @@
+program prjConsole;
+
+
+uses
+  System.SysUtils;
+
+var numReal: double;
+
+begin
+
+  readln(numReal);
+  Writeln(numReal);
+  Writeln(TRUNC(numReal));
+  readln;
+end.

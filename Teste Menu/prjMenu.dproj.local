@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2022/07/06 11:23:38.510,=C:\Users\ualas\OneDrive\Documentos\Delphi\Unit1.pas</Transaction>
+    <Transaction>2022/07/06 11:54:53.128,=C:\Users\ualas\OneDrive\Documentos\Delphi\Unit2.pas</Transaction>
+    <Transaction>2022/07/06 11:55:51.323,C:\Users\ualas\OneDrive\Documentos\Delphi\Teste Menu\untMenu.pas=C:\Users\ualas\OneDrive\Documentos\Delphi\Unit1.pas</Transaction>
+    <Transaction>2022/07/06 11:55:51.323,C:\Users\ualas\OneDrive\Documentos\Delphi\Teste Menu\untMenu.dfm=C:\Users\ualas\OneDrive\Documentos\Delphi\Unit1.dfm</Transaction>
+    <Transaction>2022/07/06 11:56:14.114,C:\Users\ualas\OneDrive\Documentos\Delphi\Teste Menu\untMenu2.pas=C:\Users\ualas\OneDrive\Documentos\Delphi\Unit2.pas</Transaction>
+    <Transaction>2022/07/06 11:56:24.933,C:\Users\ualas\OneDrive\Documentos\Delphi\Teste Menu\prjMenu.dproj=C:\Users\ualas\OneDrive\Documentos\Delphi\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,43 @@
+unit untEspacos;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TfrmTrocaEspaco = class(TForm)
+    edtTexto: TEdit;
+    btnTroca: TButton;
+    procedure btnTrocaClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmTrocaEspaco: TfrmTrocaEspaco;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmTrocaEspaco.btnTrocaClick(Sender: TObject);
+begin
+  var texto: String := frmTrocaEspaco.edtTexto.Text;
+  var posicao: Integer := 1;
+
+  while(posicao <> 0 ) do
+    begin
+      posicao := pos(' ', texto);
+      Delete(texto, posicao, 1);
+      Insert('!', texto, posicao);
+    end;
+    Delete(texto, 1,1);
+
+    frmTrocaEspaco.edtTexto.Text := texto;
+end;
+
+end.
